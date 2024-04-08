@@ -19,7 +19,7 @@ Kubeadm is a tool to set up a minimum viable Kubernetes cluster without much com
 
 ## Kubernetes Cluster Setup Using Kubeadm
 
-1. Install container runtime on all nodes- We will be using cri-o.
+1. Install container runtime on all nodes- We will be using docker runtime.
 2. Install Kubeadm, Kubelet, and kubectl on all the nodes.
 3. Initiate Kubeadm control plane configuration on the master node.
 4. Save the node join command with the token.
